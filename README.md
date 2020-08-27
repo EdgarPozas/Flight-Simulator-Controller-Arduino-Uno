@@ -5,12 +5,10 @@ Este tutorial esta enfocado en la creación de un mando de videojuegos que funci
 ## Componentes - Components
 Para la creación del mando se necesitan los siguientes componentes:
 (The next list shows the components to make the gamepad)
-```
 - 1 Arduino UNO con un cable de conexión a la computadora
 - 1 Placa de pruebas (Protoboard)
 - 4 Potenciómetros de 1k (Potentiometers)
 - Cables para realizar las conexiones
-```
 
 ## 1 - Diagrama de conexión - Wiring diagram
 La siguiente imagen muestra las conexiones de los elementos:
