@@ -8,7 +8,7 @@ Para la creación del mando se necesitan los siguientes componentes:
 - 1 Arduino UNO con un cable de conexión a la computadora
 - 1 Placa de pruebas (Protoboard)
 - 4 Potenciómetros de 1k (Potentiometers)
-- Cables para realizar las conexiones
+- Cables para realizar las conexiones (Cables to wire)
 
 ## 1 - Diagrama de conexión - Wiring diagram
 La siguiente imagen muestra las conexiones de los elementos:
