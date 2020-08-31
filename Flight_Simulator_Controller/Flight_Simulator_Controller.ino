@@ -4,8 +4,7 @@ int avance_potenciometro = 0;
 
 void setup()
 {
-  pinMode(A0, INPUT);
-  
+  pinMode(A0, INPUT); 
   setupUnoJoy();
 }
 
@@ -16,8 +15,8 @@ void loop()
   avance_potenciometro = analogRead(2); 
 }
 
-dataForController_t getControllerData(){
-
+dataForController_t getControllerData()
+{
   dataForController_t controllerData = getBlankDataForController();
   
   // si se quiere trabajar con Joystick´s analogos, que no solo lean HIGH y LOW se usa el siguiente codigo
