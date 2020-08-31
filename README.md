@@ -9,7 +9,7 @@ Para la creación del mando se necesitan los siguientes componentes:
 - Cables para realizar las conexiones.
 
 ## 2 - Diagrama de conexión
-La siguiente imagen muestra las conexiones de los elementos:
+La siguiente imagen muestra las conexiones de los elementos:  
 ![Diagrama de conexión](./diagrama.png)
 
 ## 3 - Descargar libreria UnoJoy
@@ -37,7 +37,7 @@ Cargamos nuestro proyecto en placa Arduino UNO. Es importante cargar primero el 
 El modo DFU (Device Firmware Update) nos permitirá utilizar nuestro arduino como si fuera un periferico conectado por USB, lo cual nos favorecerá para ser detectado como si fuera un mando de videojuegos. Para más información consultar la página https://www.arduino.cc/en/Hacking/DFUProgramming8U2 .
 
 ### 6.1 - Entrar y salir del modo DFU
-Para lograr ingresar en este modo es necesario conectar 2 de los pines macho ICSP2 ubicados entre las entradas digitales y el botón de reiniciar el Arduino. Los pines que se deben de conectar son los siguientes:
+Para lograr ingresar en este modo es necesario conectar 2 de los pines macho ICSP2 ubicados entre las entradas digitales y el botón de reiniciar el Arduino. Los pines que se deben de conectar son los siguientes:  
 ![Pines DFU](./pines_dfu.png)
 Una vez conectadas las entradas los leds naranjas parpadearán y posteriormente quedará un led naranja encendido. Es importante mencionar que este modo perdura mientras el Arduino sea alimentado con voltaje, en el momento que se le deje de proporcionar se reiniciará el Arduino y saldrá de el modo DFU. Podemos comprobar si nos encontramos en este modo con base en los leds naranja. 
 
@@ -48,7 +48,7 @@ Con el objetivo de facilitar el cambio de configuraciones podemos descargar un g
 Con el arduino en el modo DFU procederemos a cambiar su configuración, para ello nos ubicamos en la carpeta donde tenemos descargado el repositorio de UnoJoy, en caso de no tenerlo consulte el punto 2. Los archivos que necesitamos para cambiar la configuración son aquellos que se llaman "TurnIntoAJoystick" y "TurnIntoAnArduino", dependiendo de el sistema operativo en el que nos encontremos ejecutamos nuestro comando (Es posible que necesitemos permisos de administrador para correr el comando).
 
 ### 6.4 - Comprobación del mando de videojuegos
-Despues de haber ejecutado el comando procedemos a desconectar el arduino de nuestra fuente de voltaje para posteriormente volverlo a conectar. Una vez realizado este proceso podemos dirigirnos a nuestro gestor de mandos y podremos comprobar su funcionamiento.
+Despues de haber ejecutado el comando procedemos a desconectar el arduino de nuestra fuente de voltaje para posteriormente volverlo a conectar. Una vez realizado este proceso podemos dirigirnos a nuestro gestor de mandos y podremos comprobar su funcionamiento.  
 ![Comprobación](./comprobacion.png)
 
 ## 7 - Configuración en Flight Simulator
