@@ -38,7 +38,7 @@ Cargamos nuestro proyecto en placa Arduino UNO. Es importante cargar primero el 
 El modo DFU (Device Firmware Update) nos permitirá utilizar nuestro arduino como si fuera un periferico conectado por USB, lo cual nos favorecerá para ser detectado como si fuera un mando de videojuegos. Para más información consultar la página https://www.arduino.cc/en/Hacking/DFUProgramming8U2 .
 
 ### 6.1 - Entrar y salir del modo DFU
-Para lograr ingresar en este modo es necesario conectar 2 de los pines macho ICSP ubicados entre las entradas digitales y el botón de reiniciar el Arduino. Los pines que se deben de conectar son los siguientes:
+Para lograr ingresar en este modo es necesario conectar 2 de los pines macho ICSP2 ubicados entre las entradas digitales y el botón de reiniciar el Arduino. Los pines que se deben de conectar son los siguientes:
 ![Pines DFU](./pines_dfu.png)
 Format: ![Alt Text](url)
 Una vez conectadas las entradas los leds naranjas parpadearán y posteriormente quedará un led naranja encendido. Es importante mencionar que este modo perdura mientras el Arduino sea alimentado con voltaje, en el momento que se le deje de proporcionar se reiniciará el Arduino y saldrá de el modo DFU. Podemos comprobar si nos encontramos en este modo con base en los leds naranja. 
