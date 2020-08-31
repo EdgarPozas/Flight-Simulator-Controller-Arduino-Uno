@@ -11,7 +11,6 @@ Para la creación del mando se necesitan los siguientes componentes:
 ## 2 - Diagrama de conexión
 La siguiente imagen muestra las conexiones de los elementos:
 ![Diagrama de conexión](./diagrama.png)
-Format: ![Alt Text](url)
 
 ## 3 - Descargar libreria UnoJoy
 UnoJoy es un proyecto que nos permite convertir nuestro Arduino UNO en un mando de videojuegos. El proyecto se encuentra disponible en el siguiente repositorio https://github.com/AlanChatham/UnoJoy . Podemos descargarlo desde la página de Github ó podemos correr el siguiente comando:
@@ -40,7 +39,6 @@ El modo DFU (Device Firmware Update) nos permitirá utilizar nuestro arduino com
 ### 6.1 - Entrar y salir del modo DFU
 Para lograr ingresar en este modo es necesario conectar 2 de los pines macho ICSP2 ubicados entre las entradas digitales y el botón de reiniciar el Arduino. Los pines que se deben de conectar son los siguientes:
 ![Pines DFU](./pines_dfu.png)
-Format: ![Alt Text](url)
 Una vez conectadas las entradas los leds naranjas parpadearán y posteriormente quedará un led naranja encendido. Es importante mencionar que este modo perdura mientras el Arduino sea alimentado con voltaje, en el momento que se le deje de proporcionar se reiniciará el Arduino y saldrá de el modo DFU. Podemos comprobar si nos encontramos en este modo con base en los leds naranja. 
 
 ### 6.2 - Descargar un gestor de DFU
@@ -52,7 +50,6 @@ Con el arduino en el modo DFU procederemos a cambiar su configuración, para ell
 ### 6.4 - Comprobación del mando de videojuegos
 Despues de haber ejecutado el comando procedemos a desconectar el arduino de nuestra fuente de voltaje para posteriormente volverlo a conectar. Una vez realizado este proceso podemos dirigirnos a nuestro gestor de mandos y podremos comprobar su funcionamiento.
 ![Comprobación](./comprobacion.png)
-Format: ![Alt Text](url)
 
 ## 7 - Configuración en Flight Simulator
 El último paso es configurar nuestro Flight Simulator para ello nos dirigimos al juego y asignamos los valores a las superficies y controles que deseemos. 
